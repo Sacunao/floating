@@ -1,11 +1,14 @@
 #contenedor{
 	border: 1px solid grey;
 	width: 800px;
-	overflow: hidden;
+}
+.clearfix{
+	overflow: auto;
 }
 .caja{
 	width: 25%;
 	height: 100px;
+	float: right;
 }
 .uno{
 	background-color: #FFFF00;
